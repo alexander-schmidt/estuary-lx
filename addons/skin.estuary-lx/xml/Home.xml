@@ -132,12 +132,14 @@
 							<param name="widget_target" value="videos"/>
 							<param name="list_id" value="6100"/>
 						</include>
-						<include content="WidgetListEpisodes" condition="Library.HasContent(tvshows)">
-							<param name="content_path" value="special://skin/playlists/recent_unwatched_episodes.xsp"/>
-							<param name="widget_header" value="$LOCALIZE[20387]"/>
-							<param name="widget_target" value="videos"/>
-							<param name="list_id" value="6200"/>
-						</include>
+						<!--
+							<include content="WidgetListEpisodes" condition="Library.HasContent(tvshows)">
+								<param name="content_path" value="special://skin/playlists/recent_unwatched_episodes.xsp"/>
+								<param name="widget_header" value="$LOCALIZE[20387]"/>
+								<param name="widget_target" value="videos"/>
+								<param name="list_id" value="6200"/>
+							</include>
+						-->
 						<include content="WidgetListPoster" condition="Library.HasContent(tvshows)">
 							<param name="content_path" value="special://skin/playlists/unwatched_tvshows.xsp"/>
 							<param name="widget_header" value="$LOCALIZE[31122]"/>
